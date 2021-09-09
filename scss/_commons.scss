@@ -1,0 +1,59 @@
+body{
+	background-color: $blanco;
+}
+
+nav{
+	background-color: $amarillo;
+	li{
+		list-style-type: none;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	a:hover{
+		color: black;
+		font-weight: bold;
+	}
+}
+
+.active{
+	font-weight: bold;
+}
+
+article:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.redes:hover{
+	transform: scale(1.1);
+}
+
+.logo:hover{
+	transform: scale(1.1);
+}
+
+label{
+	font-weight: bold;
+}
+
+footer{
+	ul{
+		flex-direction: column;
+	}
+}
+
+.btn{
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: $verdeOscuro;
+}
+
+.btn:hover{
+	font-weight: bold;
+}
+
+.negrita{
+	font-weight: bold;
+}

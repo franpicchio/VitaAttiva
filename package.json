@@ -1,0 +1,68 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "Proyecto final para el curso de Desarrollo Web. Es un sitio de un emprendimiento de venta de frutos secos y suplementos deportivos. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm     run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franpicchio/VitaAttiva.git"
+  },
+  "keywords": [
+    "frutos",
+    "secos",
+    "suplementos",
+    "deportivos",
+    "comida",
+    "comida",
+    "sana",
+    "comida",
+    "saludable",
+    "alimentación",
+    "alimentación",
+    "sana",
+    "alimentación",
+    "saludable",
+    "alimentación",
+    "deportiva",
+    "nutrición",
+    "nutrición",
+    "saludable",
+    "nutrición",
+    "deportiva",
+    "deporte",
+    "energía",
+    "nueces",
+    "almendras",
+    "pasas",
+    "de",
+    "uva",
+    "castañas",
+    "de",
+    "cajú",
+    "avellanas",
+    "whey",
+    "protein",
+    "ultra",
+    "mass",
+    "ena",
+    "ultra",
+    "tech",
+    "proteínas",
+    "proteínas",
+    "sintéticas\""
+  ],
+  "author": "franciscopicchio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franpicchio/VitaAttiva/issues"
+  },
+  "homepage": "https://github.com/franpicchio/VitaAttiva#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
