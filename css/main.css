@@ -3,7 +3,8 @@ body {
   background-color: #f6f4e6; }
 
 nav {
-  background-color: #f9e044; }
+  background-color: #f9e044;
+  width: 100%; }
   nav li {
     list-style-type: none; }
   nav a {
@@ -16,8 +17,12 @@ nav {
 .active {
   font-weight: bold; }
 
+article {
+  display: flex;
+  margin-bottom: 10px; }
+
 article:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
   cursor: pointer; }
 
 .redes:hover {
@@ -42,6 +47,21 @@ footer ul {
 
 .negrita {
   font-weight: bold; }
+
+.botonProducto {
+  background-color: #f9e044;
+  width: 15%; }
+
+.botonProducto:hover {
+  transform: scale(1.05); }
+
+#formulario {
+  border-style: solid;
+  border-color: #102501;
+  border-width: 2px; }
+
+#productos {
+  height: 50vh; }
 
 body {
   font-family: "Source Sans Pro", sans-serif;

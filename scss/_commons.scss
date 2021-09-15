@@ -4,6 +4,7 @@ body{
 
 nav{
 	background-color: $amarillo;
+	width: 100%;
 	li{
 		list-style-type: none;
 	}
@@ -21,8 +22,13 @@ nav{
 	font-weight: bold;
 }
 
+article{
+	display: flex;
+	margin-bottom: 10px;
+}
+
 article:hover{
-	transform: scale(1.1);
+	transform: scale(1.02);
 	cursor: pointer;
 }
 
@@ -56,4 +62,23 @@ footer{
 
 .negrita{
 	font-weight: bold;
+}
+
+.botonProducto{
+	background-color: $amarillo;
+	width: 15%;
+}
+
+.botonProducto:hover{
+	transform: scale(1.05);
+}
+
+#formulario{
+	border-style: solid;
+	border-color: $verdeOscuro;
+	border-width: 2px;
+}
+
+#productos{
+	height: 50vh;
 }
