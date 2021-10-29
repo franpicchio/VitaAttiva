@@ -63,6 +63,15 @@ footer ul {
 #productos {
   height: 50vh; }
 
+#imagenHeroe {
+  display: none; }
+
+.navbar {
+  display: none; }
+
+h1 {
+  display: none; }
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;

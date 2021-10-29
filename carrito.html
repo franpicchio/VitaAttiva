@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="img/logoVitaAttiva.svg" alt="Logo Vita Attiva" width="90px" class="logo">
+          <img src="img/logoVitaAttiva.svg" alt="Logo Vita Attiva" width="90px" class="logo" id="imagenLogo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="mx-4 nav-item">
-              <a class="active nav-link" href="index.html">INICIO</a>
+              <a class="nav-link" href="index.html">INICIO</a>
             </li>
             <li class="dropdown mx-4 nav-item">
               <a class="dropdown-toggle nav-link" href="productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
@@ -51,54 +51,6 @@
       </div>
     </nav>
 
-    <section>
-      <div class="py-3 text-center">
-        <h1>
-          <u>Vita Attiva</u>
-        </h1>
-        <img src="img/variedadFrutosSecos.jpg" alt="Imagen de distintos tipos de frutos secos" width="100%" id="imagenHeroe">
-        <h2>¿Qué es Vita Attiva?</h2>
-        <p>Es un emprendimiento que busca darle a las personas la posibilidad de acceder a comida saluable y nutritiva, de manera <em>cómoda, fácil y accesible,</em> haciendo que sus clientes disfruten de alimentarse de forma sana sin tener que realizar mucho esfuerzo para conseguirlo.</p>
-        <p>Además, busca brindarle a los <em>deportistas</em> una posibilidad de nutrición adecuada de acuerdo a las exigencias físicas que tengan en sus respectivas prácticas.</p>
-      </div>
-    </section>
-
-    <section>
-      <div class="container-fluid py-3 text-center w-75">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/carFrutosSecos.jpg" class="d-block w-100" alt="Imagen de frutos secos">
-            </div>
-            <div class="carousel-item">
-              <img src="img/carProteinas.jpg" class="d-block w-100" alt="Imagen de una persona por tomar proteínas">
-            </div>
-            <div class="carousel-item">
-              <img src="img/carFrutasDesecadas.jpg" class="d-block w-100" alt="Imagen de frutas desecadas">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-
-      <div class="container-fluid text-center py-3">
-        <h3>La importancia de comer sano</h3>
-        <p>Una alimentación saludable es uno de los hábitos más importantes para tener una buena salud, no solo a nivel físico sino también mental. Por este motivo, es importante adoptar unas costumbres tanto de nutrición como de ejercicio físico, ya que contribuyen a mejorar la calidad de vida. Aprender a comer sano nos da la posibilidad y la motivación para construir las bases de una vida saludable y activa. La alimentación no solo es la primera necesidad del ser humano, sino que nos permite crecer sanamente y gozar de una buena salud física y mental.</p>
-      </div>
-    </section>
-
     <footer>
       <nav class="row p-2">
         <a href="index.html" class="text-decoration-none align-self-center col-sm-4 col-xs-12 text-center">
@@ -108,10 +60,10 @@
         <ul class="text-center col-sm-4 col-xs-12">
           <li class="negrita">EXPLORÁ</li>
           <li>
-            <a href="index.html" class="active">Inicio</a>
+            <a href="index.html">Inicio</a>
           </li>
           <li>
-            <a href="productos.html">Productos</a>
+            <a href="productos.html" class="active">Productos</a>
           </li>
           <li>
             <a href="frutosSecos.html">Frutos secos</a>
