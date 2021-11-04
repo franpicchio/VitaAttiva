@@ -42,14 +42,39 @@
             </li>
           </ul>
         </div>
-        <div>
-          <a href="carrito.html">
+        
+        <div class="btn-group dropstart">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="img/carrito.png" alt="Imagen carrito de compras" id="imagenCarrito" width="35px">
             <span class="badge bg-secondary" id="carritoCantidad">0</span>
-          </a>
+          </button>
+          <ul class="dropdown-menu p-2 w-100" aria-labelledby="dropdownMenuButton1">
+            <li id="carritoProductos"></li>
+            <li><a class="dropdown-item btn btnCarrito my-1" href="carrito.html">Ir al carrito</a></li>
+            <li><button class="dropdown-item btn vaciarCarrito btnCarrito my-1">Vaciar carrito</button></li>
+          </ul>
         </div>
       </div>
     </nav>
+
+    <section>
+      <h1>Carrito</h1>
+      <div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Nombre del Producto</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Cantidad</th>
+            </tr>
+          </thead>
+          <tbody id="tablaCarrito"></tbody>
+          <tbody id="totalCarrito"></tbody>
+        </table>
+        <button class="btn m-3 vaciarCarrito">Vaciar carrito</button>
+        <button class="btn m-3">Comprar</button>
+      </div>
+    </section>
 
     <footer>
       <nav class="row p-2">

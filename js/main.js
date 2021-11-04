@@ -22,12 +22,8 @@ $('.navbar').fadeIn(500);
 $('h1').fadeIn(1000)
 $('#imagenHeroe').fadeIn(1500);
 
-let botonesFrutosSecos = $('.btnFrutosSecos');
-for (const boton of botonesFrutosSecos) {
-    boton.onclick = (e) = comprarFrutosSecos(e);
-}
-
-let botonesSuplementos = $('.btnSuplementos');
-for (const boton of botonesSuplementos) {
-    boton.onclick = (e) = comprarSuplementos(e);
-}
+$(document).ready(function(){
+    $('.btnFrutosSecos').click(comprarFrutosSecos);
+    $('.btnSuplementos').click(comprarSuplementos);
+    $('.vaciarCarrito').click(vaciarCarrito);
+})

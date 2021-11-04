@@ -1,6 +1,6 @@
-[{"id":1, "nombre":"Almendras", "precio":400, "img":"img/almendras.jpg"},
-{"id":2, "nombre":"Avellanas", "precio":500, "img":"img/avellanas.jpg"},
-{"id":3, "nombre":"Castañas de Cajú", "precio":300, "img":"img/castañas.jpg"},
-{"id":4, "nombre":"Nueces", "precio":350, "img":"img/nueces.jpg"},
-{"id":5, "nombre":"Pasas de uva negras", "precio":200, "img":"img/pasas.jpg"},
-{"id":6, "nombre":"Pasas de uva rubias", "precio":250, "img":"img/pasasRubias.jpg"}]
+[{"id":1, "nombre":"Almendras", "precio":400, "img":"img/almendras.jpg", "cantidad":1},
+{"id":2, "nombre":"Avellanas", "precio":500, "img":"img/avellanas.jpg", "cantidad":1},
+{"id":3, "nombre":"Castañas de Cajú", "precio":300, "img":"img/castañas.jpg", "cantidad":1},
+{"id":4, "nombre":"Nueces", "precio":350, "img":"img/nueces.jpg", "cantidad":1},
+{"id":5, "nombre":"Pasas de uva negras", "precio":200, "img":"img/pasas.jpg", "cantidad":1},
+{"id":6, "nombre":"Pasas de uva rubias", "precio":250, "img":"img/pasasRubias.jpg", "cantidad":1}]

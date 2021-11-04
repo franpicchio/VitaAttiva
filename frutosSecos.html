@@ -43,14 +43,16 @@
           </ul>
         </div>
 
-        <div class="dropdown">
-          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="btn-group dropstart">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="img/carrito.png" alt="Imagen carrito de compras" id="imagenCarrito" width="35px">
             <span class="badge bg-secondary" id="carritoCantidad">0</span>
           </button>
-          <div id="carritoProductos" class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton">
-            <a href="carrito.html" class="btn">Ir al carrito</a>
-          </div>
+          <ul class="dropdown-menu p-2 w-100" aria-labelledby="dropdownMenuButton1">
+            <li id="carritoProductos"></li>
+            <li><a class="dropdown-item btn btnCarrito my-1" href="carrito.html">Ir al carrito</a></li>
+            <li><button class="dropdown-item btn vaciarCarrito btnCarrito my-1">Vaciar carrito</button></li>
+          </ul>
         </div>
       </div>
     </nav>

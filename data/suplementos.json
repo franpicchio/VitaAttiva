@@ -1,5 +1,5 @@
-[{"id":1, "nombre":"Creatina", "precio":1000, "img":"img/creatina.jfif"},
-{"id":2, "nombre":"Iso Proteina", "precio":2000, "img":"img/isoProt.jpg"},
-{"id":3, "nombre":"Proteína Pre Entreno", "precio":1500, "img":"img/preEntreno.png"},
-{"id":4, "nombre":"Whey Protein", "precio":1700, "img":"img/wheyProtein.jpg"},
-{"id":5, "nombre":"Whey X Pro", "precio":2500, "img":"img/wheyXpro.jpg"}]
+[{"id":7, "nombre":"Creatina", "precio":1000, "img":"img/creatina.jfif", "cantidad":1},
+{"id":8, "nombre":"Iso Proteina", "precio":2000, "img":"img/isoProt.jpg", "cantidad":1},
+{"id":9, "nombre":"Proteína Pre Entreno", "precio":1500, "img":"img/preEntreno.png", "cantidad":1},
+{"id":10, "nombre":"Whey Protein", "precio":1700, "img":"img/wheyProtein.jpg", "cantidad":1},
+{"id":11, "nombre":"Whey X Pro", "precio":2500, "img":"img/wheyXpro.jpg", "cantidad":1}]

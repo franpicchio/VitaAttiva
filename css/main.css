@@ -72,6 +72,12 @@ footer ul {
 h1 {
   display: none; }
 
+.btnCarrito {
+  background-color: #f9e044; }
+
+.badge {
+  background-color: #6c8229; }
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
