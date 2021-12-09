@@ -5,6 +5,7 @@ $.get("data/frutosSecos.json", function(respuesta, estado){
             console.log(objeto);
         }
         productosFrutosSecos(frutosSecos, '#listaFrutosSecos');
+        $('.btnFrutosSecos').click(comprarFrutosSecos);
     }
 })
 
@@ -15,6 +16,7 @@ $.get("data/suplementos.json", function(respuesta, estado){
             console.log(objeto);
         }
         productosSuplementos(suplementos, '#listaSuplementos');
+        $('.btnSuplementos').click(comprarSuplementos);
     }
 })
 
@@ -23,7 +25,5 @@ $('h1').fadeIn(1000)
 $('#imagenHeroe').fadeIn(1500);
 
 $(document).ready(function(){
-    $('.btnFrutosSecos').click(comprarFrutosSecos);
-    $('.btnSuplementos').click(comprarSuplementos);
     $('.vaciarCarrito').click(vaciarCarrito);
 })
